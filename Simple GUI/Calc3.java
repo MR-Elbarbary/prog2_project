@@ -29,6 +29,7 @@ public class Calc3 {
       frame.setVisible(true);
       frame.setLayout(null);
       frame.setVisible(true);
+      frame.setResizable(false);
       frame.add(label);
 
     }
