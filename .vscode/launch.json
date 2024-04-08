@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Airline_App",
+            "request": "launch",
+            "mainClass": "Airline_Project.Airline_App",
+            "projectName": "prog2_project_fbb17946"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
