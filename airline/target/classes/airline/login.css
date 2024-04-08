@@ -1,0 +1,13 @@
+.login_countainer{
+    -fx-background-color: #EEEEEE;
+}
+
+.icon_container{
+    -fx-background-color: #13132A;
+}
+
+.text-tittle{
+    -fx-alignment: Center;
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+}
