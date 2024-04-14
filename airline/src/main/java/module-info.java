@@ -1,8 +1,7 @@
-module airline {
+module skyglide {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.sql;
 
-    opens airline to javafx.fxml;
-    exports airline;
+    opens skyglide to javafx.fxml;
+    exports skyglide;
 }

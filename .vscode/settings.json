@@ -1,8 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        ".vscode\\lib\\javafx\\*.jar",
-        ".vscode\\lib\\icon\\*.jar"
-    ],
-    "java.configuration.updateBuildConfiguration": "interactive"
-}
