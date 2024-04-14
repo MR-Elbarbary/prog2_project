@@ -1,10 +1,9 @@
-package skyglide;
+package airline;
 
 import java.io.IOException;
 import javafx.fxml.FXML;
-import java.sql.*;
 
-public class register {
+public class SecondaryController {
 
     @FXML
     private void switchToPrimary() throws IOException {
