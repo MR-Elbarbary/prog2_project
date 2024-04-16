@@ -1,0 +1,20 @@
+#Left_Pane{
+
+    -fx-background-color : rgb(0, 0, 48) ;
+}
+#Right_Pane {
+
+    -fx-background-color : rgb(185, 185, 245) ;
+}
+#Logout {
+
+    -fx-background-color : rgb(63, 4, 75) ;
+    -fx-font-size : 20px ;
+    -fx-font-color : white ;
+
+}
+#Moving_Pane {
+    
+    -fx-background-color : rgb(49, 12, 185) ;
+
+}

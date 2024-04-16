@@ -1,0 +1,23 @@
+.login_countainer{
+    -fx-background-color: #EEEEEE;
+}
+
+.icon_container{
+    -fx-background-color: #13132A;
+    -fx-alignment: Center;
+}
+
+.icon_container Text {
+    -fx-font-size: 2em;
+    -fx-fill: #FFFFFF;
+}
+
+.icon_container FontAwesomIconView {
+    -fx-fill: #ECF39E;
+}
+
+.text-tittle{
+    -fx-alignment: Center;
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+}

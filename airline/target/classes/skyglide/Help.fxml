@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Help">
+   <children>
+      <ImageView fitHeight="329.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(295).png" />
+         </image>
+      </ImageView>
+      <Label id="First_Label" fx:id="First_Label" layoutX="-488.0" layoutY="79.0" text="Efficinetly manage your flight with comprehensive airline App">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label id="Seconed_Label" fx:id="Seconed_Label" layoutX="-526.0" layoutY="115.0" prefHeight="27.0" prefWidth="526.0" text="Facilitating easy booking and providing detailed flight information ">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label id="Third_Label" fx:id="Third_Label" layoutX="-214.0" layoutY="158.0" text="at your fingertips !">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button id="Back" fx:id="Back" mnemonicParsing="false" onAction="#Return_Back_Previous_Page" prefHeight="45.0" prefWidth="77.0" stylesheets="@HomePage.css" text="Back" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="242.0" text="Help " textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
