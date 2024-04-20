@@ -154,7 +154,7 @@ public class HomePage implements Initializable {
         translate.setDuration(Duration.millis(1500));
         translate.setByX(-140);
         translate.play();
-     
+    
         
         TranslateTransition translate1 = new TranslateTransition();
         translate1.setNode(Left_Pane);
