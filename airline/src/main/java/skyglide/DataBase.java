@@ -7,7 +7,7 @@ public class DataBase {
 
     public DataBase(){
         try{
-            this.conn = DriverManager.getConnection("skyglide.db");
+            this.conn = DriverManager.getConnection("jdbc:sqlite:skyglide.db");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -15,12 +15,11 @@ public class DataBase {
 
 
     public ResultSet getUserData(String name, String password){
-        Statement statement;
         ResultSet result = null;
-        try {
-            statement = this.conn.createStatement();
-            result = statement.executeQuery("SELECT * FROM user WHERE user_name ='"+name+"' AND password = '"+password+"';");
-
+        try (PreparedStatement statement = conn.prepareStatement("SELECT * FROM user WHERE user_name = ? AND password = ?")) {
+            statement.setString(1, name);
+            statement.setString(2, password);
+            result = statement.executeQuery();
         } catch (SQLException e) {
             e.printStackTrace();
         }
