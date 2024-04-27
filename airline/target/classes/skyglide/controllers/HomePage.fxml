@@ -10,7 +10,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<Pane id="Main_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1072.0" stylesheets="@HomePage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.HomePage">
+<Pane id="Main_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1072.0" stylesheets="@../../../resources/skyglide/css/HomePage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.HomePage">
    <children>
       <Pane id="Left_Pane" fx:id="Left_Pane" layoutX="-221.0" layoutY="-4.0" prefHeight="684.0" prefWidth="235.0" style="-fx-background-radius: 60;" stylesheets="@HomePage.css">
          <children>
@@ -73,7 +73,7 @@
             </Button>
             <ImageView fitHeight="75.0" fitWidth="65.0" layoutX="140.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Projects%20Images/Screenshot%20(293).png" />
+                  <Image url="@../../../resources/skyglide/image/Screenshot%20(293).png" />
                </image>
             </ImageView>
             <Button fx:id="My_Accounts" layoutX="51.0" layoutY="259.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="162.0" stylesheets="@HomePage.css" text="My Accounts" textFill="WHITE">
@@ -108,12 +108,12 @@
             </Button>
             <ImageView fitHeight="51.0" fitWidth="28.0" layoutX="84.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Projects%20Images/Screenshot%20(302).png" />
+                  <Image url="@../../../resources/skyglide/image/Screenshot%20(302).png" />
                </image>
             </ImageView>
             <ImageView fitHeight="33.0" fitWidth="37.0" layoutX="51.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Projects%20Images/Screenshot%20(305).png" />
+                  <Image url="@../../../resources/skyglide/image/Screenshot%20(305).png" />
                </image>
             </ImageView>
             <Pane layoutX="63.0" layoutY="330.0" prefHeight="3.0" prefWidth="138.0" style="-fx-background-color: #0f0d8a;" />
@@ -134,7 +134,7 @@
             </Button>
             <ImageView fitHeight="53.0" fitWidth="32.0" layoutX="87.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Projects%20Images/Screenshot%20(308).png" />
+                  <Image url="@../../../resources/skyglide/image/Screenshot%20(308).png" />
                </image>
             </ImageView>
          </children>
@@ -147,7 +147,7 @@
       <ImageView fitHeight="39.0" fitWidth="44.0" layoutX="222.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fitHeight="51.0" fitWidth="108.0" layoutX="213.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Screenshot%20(291).png" />
+            <Image url="@../../../resources/skyglide/image/Screenshot%20(291).png" />
          </image>
       </ImageView>
       <Pane id="Moving_Pane" fx:id="Moving_Pane" layoutX="1089.0" layoutY="14.0" prefHeight="164.0" prefWidth="255.0" style="-fx-background-radius: 55;" stylesheets="@HomePage.css">

@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="806.0" stylesheets="@Login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Login">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="806.0" stylesheets="@../../../resources/skyglide/css/Login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Login">
    <children>
       <ImageView fitHeight="521.0" fitWidth="807.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Screenshot%20(273).png" />
+            <Image url="@../../../resources/skyglide/image/Screenshot%20(273).png" />
          </image>
       </ImageView>
       <Button id="Back" fx:id="Back" layoutX="-1.0" mnemonicParsing="false" onAction="#Return_Back_Previous_Page" prefHeight="51.0" prefWidth="94.0" stylesheets="@Login.css" text="Back" textFill="WHITE">
