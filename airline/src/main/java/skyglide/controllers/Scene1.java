@@ -1,4 +1,4 @@
-package skyglide;
+package skyglide.controllers;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -61,15 +61,15 @@ public class Scene1 implements Initializable{
     @FXML
     void Login(ActionEvent event) throws IOException {
 
-         Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
-         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-         Scene scene = new Scene(root);
+        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
 
-         stage.setTitle("Login");
-         stage.setX(330);
-         stage.setY(90);
-         stage.setScene(scene);
-         stage.show();
+        stage.setTitle("Login");
+        stage.setX(330);
+        stage.setY(90);
+        stage.setScene(scene);
+        stage.show();
 
 
     }
@@ -78,15 +78,15 @@ public class Scene1 implements Initializable{
     @FXML
     void Sign_In(ActionEvent event) throws IOException{
 
-         Parent root = FXMLLoader.load(getClass().getResource("Sign.fxml"));
-         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-         Scene scene = new Scene(root);
+        Parent root = FXMLLoader.load(getClass().getResource("Sign.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
 
-         stage.setTitle("Sign In");
-         stage.setX(330);
-         stage.setY(90);
-         stage.setScene(scene);
-         stage.show();
+        stage.setTitle("Sign In");
+        stage.setX(330);
+        stage.setY(90);
+        stage.setScene(scene);
+        stage.show();
 
     }
 
@@ -106,15 +106,15 @@ public class Scene1 implements Initializable{
     @FXML
     void Home_Page(ActionEvent event) throws IOException {
 
-         Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
-         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-         Scene scene = new Scene(root);
+        Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
 
-         stage.setTitle("Airlne App");
-         stage.setX(200);
-         stage.setY(5);
-         stage.setScene(scene);
-         stage.show();
+        stage.setTitle("Airlne App");
+        stage.setX(200);
+        stage.setY(5);
+        stage.setScene(scene);
+        stage.show();
 
     }
 

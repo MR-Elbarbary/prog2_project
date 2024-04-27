@@ -1,9 +1,11 @@
+package skyglide.controllers;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -35,6 +37,8 @@ public class Sign implements Initializable{
     @FXML
     private TextField Username_Textfield;
 
+    @FXML
+    private DatePicker datePicker;
 
     @FXML
     private Label SignIn;
@@ -75,6 +79,7 @@ public class Sign implements Initializable{
         assert Email_Textfield != null : "fx:id=\"Email_Textfield\" was not injected: check your FXML file 'Sign.fxml'.";
         assert Password_Textfield != null : "fx:id=\"Password_Textfield\" was not injected: check your FXML file 'Sign.fxml'.";
         assert Username_Textfield != null : "fx:id=\"Username_Textfield\" was not injected: check your FXML file 'Sign.fxml'.";
+        assert datePicker != null : "fx:id=\"datePicker\" was not injected: check your FXML file 'Sign.fxml'.";
 
     }
 
@@ -83,7 +88,7 @@ public class Sign implements Initializable{
 
         TranslateTransition translate = new TranslateTransition();
         translate.setNode(Welcome);
-        translate.setDuration(Duration.millis(1200));
+        translate.setDuration(Duration.millis(1400));
         translate.setByX(200);
         translate.play();
 
