@@ -10,7 +10,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<Pane id="Main_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="1072.0" stylesheets="@../../../resources/skyglide/css/Pennding.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Controlers.Pennding">
+<Pane id="Main_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="1072.0" stylesheets="@Pennding.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pennding">
    <children>
       <Label layoutX="319.0" layoutY="23.0" text="Pennding Tickits">
          <font>
@@ -67,7 +67,7 @@
       </Pane>
       <ImageView fitHeight="75.0" fitWidth="150.0" layoutX="206.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/skyglide/image/Screenshot%20(333).png" />
+            <Image url="@Projects%20Images/Screenshot%20(333).png" />
          </image>
       </ImageView>
       <Pane id="Upper_Pane" fx:id="Upper_Pane" layoutX="225.0" layoutY="108.0" prefHeight="53.0" prefWidth="623.0" style="-fx-background-color: #000030; -fx-background-radius: 30;">
@@ -118,7 +118,7 @@
       </Label>
       <ImageView fitHeight="62.0" fitWidth="79.0" layoutX="206.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/skyglide/image/Screenshot%20(337).png" />
+            <Image url="@Projects%20Images/Screenshot%20(337).png" />
          </image>
       </ImageView>
       <ListView id="Countries_List" fx:id="Countries_List" layoutX="242.0" layoutY="180.0" prefHeight="141.0" prefWidth="154.0" />

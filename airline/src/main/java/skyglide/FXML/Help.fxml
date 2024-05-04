@@ -7,11 +7,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" stylesheets="@../../../resources/skyglide/css/Login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Controlers.Help">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Help">
    <children>
       <ImageView fitHeight="329.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/skyglide/image/Screenshot%20(295).png" />
+            <Image url="@Projects%20Images/Screenshot%20(295).png" />
          </image>
       </ImageView>
       <Label id="First_Label" fx:id="First_Label" layoutX="-488.0" layoutY="79.0" text="Efficinetly manage your flight with comprehensive airline App">

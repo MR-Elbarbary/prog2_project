@@ -9,11 +9,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="800.0" stylesheets="@../../../resources/skyglide/css/Sign.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Controlers.Sign">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sign">
    <children>
       <ImageView id="Submit" fitHeight="541.0" fitWidth="809.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/skyglide/image/Screenshot%20(273).png" />
+            <Image url="@Projects%20Images/Screenshot%20(273).png" />
          </image>
       </ImageView>
       <Label fx:id="Welcome" layoutX="-196.0" layoutY="42.0" prefHeight="99.0" prefWidth="187.0" text="Welcome" textFill="WHITE">
