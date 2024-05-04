@@ -10,7 +10,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<Pane id="Main_Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="622.0" stylesheets="@../../../resources/skyglide/css/Scene1.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skyglide.Scene1">
+<Pane id="Main_Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene1">
    <children>
       <Pane id="Left_Pane" layoutX="-2.0" prefHeight="386.0" prefWidth="249.0" stylesheets="@Scene1.css">
          <children>
@@ -111,7 +111,7 @@
       </Pane>
       <ImageView fx:id="Small_AirPlane" fitHeight="69.0" fitWidth="85.0" layoutX="-85.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/skyglide/image/Screenshot%20(285).png" />
+            <Image url="@Projects%20Images/Screenshot%20(285).png" />
          </image>
       </ImageView>
       <Label id="Small_Label" fx:id="Small_Label" alignment="CENTER" layoutX="61.0" layoutY="386.0" prefHeight="45.0" prefWidth="101.0" text="SkyGlide" textFill="#f5f4f4">
