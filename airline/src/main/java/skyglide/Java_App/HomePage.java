@@ -1,5 +1,3 @@
-package skyglide.Controlers;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -64,7 +62,7 @@ public class HomePage implements Initializable {
     @FXML
     void Return_Back_Previous_Page(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Scene1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);
@@ -83,7 +81,7 @@ public class HomePage implements Initializable {
     @FXML
     void Switch_Help(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Help.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Help.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setTitle("Help !");
@@ -98,7 +96,7 @@ public class HomePage implements Initializable {
     @FXML
     void Switch_Sign_In(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Sign.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Sign.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setTitle("Sign In");
@@ -112,7 +110,7 @@ public class HomePage implements Initializable {
     @FXML
     void Switch_Login(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setTitle("Login");
@@ -164,7 +162,7 @@ public class HomePage implements Initializable {
     @FXML
     void Pennding(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Pennding.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Pennding.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setTitle("Airlne App");

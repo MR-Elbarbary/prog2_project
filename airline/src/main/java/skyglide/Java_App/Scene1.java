@@ -1,5 +1,3 @@
-package skyglide.Controlers;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -61,7 +59,7 @@ public class Scene1 implements Initializable{
     @FXML
     void Login(ActionEvent event) throws IOException {
 
-         Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Login.fxml"));
+         Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
          Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
          Scene scene = new Scene(root);
 
@@ -78,7 +76,7 @@ public class Scene1 implements Initializable{
     @FXML
     void Sign_In(ActionEvent event) throws IOException{
 
-         Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Sign.fxml"));
+         Parent root = FXMLLoader.load(getClass().getResource("Sign.fxml"));
          Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
          Scene scene = new Scene(root);
 
@@ -106,7 +104,7 @@ public class Scene1 implements Initializable{
     @FXML
     void Home_Page(ActionEvent event) throws IOException {
 
-         Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\HomePage.fxml"));
+         Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
          Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
          Scene scene = new Scene(root);
 

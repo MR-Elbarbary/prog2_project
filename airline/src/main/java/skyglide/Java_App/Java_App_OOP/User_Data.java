@@ -1,5 +1,3 @@
-package skyglide.Java_App_OOP;
-
 import java.util.Scanner;
 public class User_Data {
 

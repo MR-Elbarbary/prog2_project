@@ -1,5 +1,3 @@
-package skyglide.Java_App_OOP;
-
 public abstract class Collecting_Data {
 
     /*

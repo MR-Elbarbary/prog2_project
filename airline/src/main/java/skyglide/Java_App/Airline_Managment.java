@@ -1,4 +1,3 @@
-package skyglide;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,7 +16,7 @@ public void start(Stage stage) throws Exception {
 
     try {
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Scene1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
         Scene scene = new Scene(root);
         
         // For Designs and Connection Between Scenes and Css Files

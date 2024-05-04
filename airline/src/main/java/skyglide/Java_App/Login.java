@@ -1,5 +1,3 @@
-package skyglide.Controlers;
-
 import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -22,7 +20,7 @@ public class Login {
     @FXML
     void Return_Back_Previous_Page(ActionEvent event) throws IOException{
 
-        Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Scene1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);
