@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SkyGlide",
+            "request": "launch",
+            "mainClass": "skyglide/skyglide.SkyGlide",
+            "projectName": "airline"
+        },
+        {
+            "type": "java",
+            "name": "Controlers",
+            "request": "launch",
+            "mainClass": "skyglide/skyglide.Controlers",
+            "projectName": "airline"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
