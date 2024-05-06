@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SkgyGlide",
+            "request": "launch",
+            "mainClass": "skyglide/skyglide.SkgyGlide",
+            "projectName": "airline"
+        },
+        {
+            "type": "java",
             "name": "SkyGlide",
             "request": "launch",
             "mainClass": "skyglide/skyglide.SkyGlide",
