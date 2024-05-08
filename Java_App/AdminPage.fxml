@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="Main_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1072.0" stylesheets="@Admin_Page.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin_Page">
+   <children>
+      <Pane id="Left_Pane" fx:id="Left_Pane" layoutX="-201.0" layoutY="-5.0" prefHeight="685.0" prefWidth="218.0" style="-fx-background-radius: 60;" stylesheets="@Admin_Page.css">
+         <children>
+            <Button fx:id="Back" layoutX="21.0" layoutY="28.0" mnemonicParsing="false" onAction="#Back_Previous_Page" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="88.0" fitWidth="83.0" layoutX="101.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" rotate="-45.6">
+               <image>
+                  <Image url="@Projects%20Images/Screenshot%20(293).png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Label id="Labe1" fx:id="Labe1" layoutX="252.0" layoutY="-62.0" text="Administration Home ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Pane id="Underline" fx:id="Underline" layoutX="278.0" layoutY="-18.0" prefHeight="3.0" prefWidth="327.0" />
+      <Pane id="Underline" fx:id="Underline" layoutX="-282.0" layoutY="86.0" prefHeight="3.0" prefWidth="282.0" />
+      <Label id="Label2" fx:id="Label2" layoutX="-164.0" layoutY="119.0" prefHeight="39.0" prefWidth="61.0" text="Data" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label id="Label3" fx:id="Label3" layoutX="-201.0" layoutY="158.0" text="Managment " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Pane id="Small_Pane" fx:id="Small_Pane" layoutX="-209.0" layoutY="216.0" prefHeight="3.0" prefWidth="151.0" style="-fx-background-color: blue;" />
+      <Pane id="Pane5" fx:id="Pane5" layoutX="605.0" layoutY="-58.0" prefHeight="53.0" prefWidth="454.0" style="-fx-background-radius: 15;">
+         <effect>
+            <DropShadow spread="0.8">
+               <color>
+                  <Color red="0.05882352963089943" green="0.05098039284348488" blue="0.5411764979362488" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="18.0" layoutY="13.0" text="Welcome To Adminstration Page For Controlling Data " textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="Pane6" fx:id="Pane6" layoutX="252.0" layoutY="405.0" prefHeight="162.0" prefWidth="246.0" style="-fx-background-radius: 30;">
+         <effect>
+            <DropShadow spread="0.8">
+               <color>
+                  <Color red="0.02631578966975212" green="0.0010964912362396717" blue="0.0010964912362396717" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="21.0" layoutY="25.0" text="Checking Aircraft Planes" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="61.0" text="It's Number - Abb - Targeting" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Label>
+            <Button id="Check_Aircrafts" fx:id="Check_Aircrafts" layoutX="46.0" layoutY="102.0" mnemonicParsing="false" style="-fx-background-radius: 30;" text="Check Aircrafts" textFill="#0051ff">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow spread="0.5">
+                     <color>
+                        <Color green="0.054901961237192154" blue="0.658823549747467" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <Pane id="Pane7" fx:id="Pane7" layoutX="252.0" layoutY="158.0" prefHeight="162.0" prefWidth="246.0" style="-fx-background-radius: 30;">
+         <effect>
+            <DropShadow spread="0.8">
+               <color>
+                  <Color red="0.02631578966975212" green="0.0010964912362396717" blue="0.0010964912362396717" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Button id="Add_Members" fx:id="Add_Members" layoutX="21.0" layoutY="101.0" mnemonicParsing="false" style="-fx-background-radius: 30;" text="Adding" textFill="#0051ff">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow spread="0.52">
+                     <color>
+                        <Color green="0.05482456088066101" blue="0.6578947305679321" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button id="Remove_Member" fx:id="Remove_Member" layoutX="123.0" layoutY="101.0" mnemonicParsing="false" style="-fx-background-radius: 30;" text="Remoivng" textFill="#0051ff">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow spread="0.52">
+                     <color>
+                        <Color green="0.054901961237192154" blue="0.658823549747467" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Label layoutX="21.0" layoutY="14.0" text="By Adding Or Removing" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="41.0" text="Members To Our Flight" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="73.0" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="Pane8" fx:id="Pane8" layoutX="580.0" layoutY="158.0" prefHeight="162.0" prefWidth="246.0" style="-fx-background-radius: 30;">
+         <effect>
+            <DropShadow spread="0.8">
+               <color>
+                  <Color red="0.02631578966975212" green="0.0010964912362396717" blue="0.0010964912362396717" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="14.0" layoutY="22.0" text="Check Users's Data From" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="46.0" text="DataBase" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button id="Check_Data" fx:id="Check_Data" layoutX="71.0" layoutY="104.0" mnemonicParsing="false" style="-fx-background-radius: 30;" text="Check Data" textFill="#0051ff">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow spread="0.75">
+                     <color>
+                        <Color red="0.05882352963089943" green="0.05098039284348488" blue="0.5411764979362488" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+      <Pane id="Pane9" fx:id="Pane9" layoutX="575.0" layoutY="405.0" prefHeight="162.0" prefWidth="246.0" style="-fx-background-radius: 30;">
+         <effect>
+            <DropShadow spread="0.8">
+               <color>
+                  <Color red="0.02631578966975212" green="0.0010964912362396717" blue="0.0010964912362396717" />
+               </color>
+            </DropShadow>
+         </effect>
+         <children>
+            <Label layoutX="21.0" layoutY="25.0" text="Checking Traviling  Flights " textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="52.0" text="Form Different Countries" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="88.0" />
+            <Pane layoutX="26.0" layoutY="-21.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button id="Checking_Flights" fx:id="Checking_Flights" layoutX="19.0" layoutY="125.0" mnemonicParsing="false" style="-fx-background-radius: 30;" text="Checking Flights" textFill="#0051ff">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                     <effect>
+                        <DropShadow spread="0.5">
+                           <color>
+                              <Color red="0.05882352963089943" green="0.05098039284348488" blue="0.5411764979362488" />
+                           </color>
+                        </DropShadow>
+                     </effect>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane id="Mini_Pane" fx:id="Mini_Pane" layoutX="-249.0" layoutY="313.0" prefHeight="143.0" prefWidth="197.0" style="-fx-background-radius: 40;">
+         <children>
+            <Label layoutX="5.0" layoutY="35.0" text="Remeber Accessing Data" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="63.0" prefHeight="17.0" prefWidth="151.0" text="Is Not Be Legall For " textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="96.0" text="Publish" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="Move_pane_Scene" fx:id="Move_pane_Scene" layoutX="1100.0" layoutY="359.0" prefHeight="3.0" prefWidth="448.0" style="-fx-background-color: black;" />
+      <Pane id="Move_pane_Scene" fx:id="Move_pane_Scene1" layoutX="314.0" layoutY="900.0" prefHeight="3.0" prefWidth="441.0" rotate="90.0" style="-fx-background-color: black;" />
+      <ScrollPane id="Scroll_Pane" fx:id="Scroll_Pane" layoutX="840.0" layoutY="386.0" prefHeight="182.0" prefWidth="200.0" style="-fx-background-radius: 30;">
+        <content>
+          <AnchorPane id="Scroll_Pane" minHeight="290.0" minWidth="0.0" prefHeight="290.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" text="Our Fllights Include" textFill="#6a00ff">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="60.0" text="Flight Number" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="92.0" text="Departure Airport" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="126.0" text="Arrival Airport" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="28.0" layoutY="203.0" text="Departutre Time" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="236.0" text="Arrival Time" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="66.0" layoutY="169.0" text="Time" textFill="#2f00ff">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ScrollPane>
+   </children>
+</Pane>
