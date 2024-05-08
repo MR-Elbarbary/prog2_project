@@ -121,10 +121,10 @@
             <Image url="@Projects%20Images/Screenshot%20(337).png" />
          </image>
       </ImageView>
-      <ListView id="Countries_List" fx:id="Countries_List" layoutX="242.0" layoutY="180.0" prefHeight="141.0" prefWidth="154.0" />
-      <Label layoutX="206.0" layoutY="217.0" text="List View But Still Under Working !" textFill="RED">
+      <ListView id="Countries_List" fx:id="Countries_List" layoutX="242.0" layoutY="214.0" prefHeight="141.0" prefWidth="154.0" />
+      <Label layoutX="257.0" layoutY="168.0" text="Countries" textFill="#004b65">
          <font>
-            <Font name="System Italic" size="18.0" />
+            <Font name="System Bold Italic" size="24.0" />
          </font>
       </Label>
    </children>

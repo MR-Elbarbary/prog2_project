@@ -1,5 +1,3 @@
-package skyglide;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -20,7 +18,10 @@ import javafx.scene.Node;
 
 public class Sign implements Initializable{
 
-    // Conteroller from Scene Builder for Sign in Page 
+   /*
+    Controlling Variables Giving It's FX:ID
+    Controller Class For Sign Page (Connected To FXML Files)
+   */
 
     @FXML
     private TextField DateBirth_TextField;
@@ -37,10 +38,8 @@ public class Sign implements Initializable{
     @FXML
     private TextField Username_Textfield;
 
-
     @FXML
     private Label SignIn;
-
 
     @FXML
     private Label Welcome;
@@ -49,8 +48,8 @@ public class Sign implements Initializable{
     private Label Back;
 
 
+     // Buttons For Interactiing With Users :
 
-    // Method for Returning Back the Previous Page First Page 
     @FXML
     void Return_Back_Previous_Page(ActionEvent event) throws IOException{
 
@@ -64,11 +63,7 @@ public class Sign implements Initializable{
 
     }
 
-    // Method for Chaning DateBirth of User in Specific Label or any Space 
-    @FXML
-    void Change_DateBirth_Text(ActionEvent event) throws IOException {
 
-    }
 
     @FXML
     void initialize() {
@@ -79,6 +74,8 @@ public class Sign implements Initializable{
         assert Username_Textfield != null : "fx:id=\"Username_Textfield\" was not injected: check your FXML file 'Sign.fxml'.";
 
     }
+
+    // Strating For Window open Action Animations :
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {

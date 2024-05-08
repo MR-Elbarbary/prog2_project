@@ -1,9 +1,9 @@
-package skyglide;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.animation.TranslateTransition;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,6 +12,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
@@ -19,6 +20,10 @@ import javafx.scene.Node;
 
 public class Pennding implements Initializable{
 
+    /*
+    Controlling Variables Giving It's FX:ID
+    Controller Class For Admin Page (Connected To FXML Files)
+    */
 
     @FXML
     private Button Back;
@@ -60,19 +65,44 @@ public class Pennding implements Initializable{
     private Pane Upper_Pane;
 
     @FXML
+    private ListView<String> Countries_List;
+
+    // Array For Countries :
+
+    String [] Countries = {
+
+        "United States","Qatar","Yemen","Oman","Andorra","Zimbabwe","United Kingdom",
+        "Japan","Vanuatu","Dominication","Germany","Russia","Hungary","Portugal",
+        "Rwanda","Denmark","Estonia","Finland","Ireland","Iran","Lithuania",
+        "Timor-Leste","Belgium","Luxembourg","China","Belize","Djibouti",
+        "Azerbaijan","Uzbekistan","Liechtenstein","Nicaragua","Brazil",
+        "Algeria","Netherlands","Poland","Sweden","France","Australia",
+        "Singapore","San Marino","Jamaica","Jordan","Italy","Tukiye",
+        "Bulgaria","Austria","Belarus","Albania","Armenia","Czechia",
+        
+    };
+
+    String Selected_Country ;
+
+    // Buttons For Interactiing With Users :
+
+    @FXML
     void Back(ActionEvent event) throws IOException {
 
          Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
          Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
          Scene scene = new Scene(root);
          
-         stage.setTitle("Airlne App");
+         stage.setTitle("SkgyGlide");
          stage.setX(200);
          stage.setY(5);
          stage.setScene(scene);
          stage.show();
 
     }
+
+    
+    // Strating For Window open Action Animations :
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
@@ -113,6 +143,24 @@ public class Pennding implements Initializable{
         translate5.setDuration(Duration.millis(1700));
         translate5.setByX(220);
         translate5.play();     
-    }
 
+        /*
+        Controlling ArrayList
+        Connection Between List in JavaFX and Java Controller Class
+        Array For Specific Countries
+        */
+
+        Countries_List.getItems().addAll(Countries);
+        Countries_List.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+
+            @Override
+            public void changed(ObservableValue<? extends String> arg0, String arg1, String arg2) {
+
+                Selected_Country = Countries_List.getSelectionModel().getSelectedItem();
+                Selecting_Country.setText(Selected_Country);
+
+            }
+            
+        });      
+    }
 }

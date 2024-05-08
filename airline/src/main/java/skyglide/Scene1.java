@@ -1,5 +1,3 @@
-package skyglide;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -24,7 +22,11 @@ import javafx.util.Duration;
 
 public class Scene1 implements Initializable{
 
-    // Conteroller from Scene Builder for Starting Page 
+    /*
+    Controlling Variables Giving It's FX:ID
+    Controller Class For Scene1 (Connected To FXML Files)
+   */
+
 
     @FXML
     private ResourceBundle resources;
@@ -43,6 +45,9 @@ public class Scene1 implements Initializable{
 
     @FXML
     private Button HomePage;
+    
+    @FXML
+    private Button Sign_Admin;
 
     @FXML
     private ImageView Small_AirPlane;
@@ -56,7 +61,7 @@ public class Scene1 implements Initializable{
     @FXML
     private Pane Small_Line;
 
-
+     // Buttons For Interactiing With Users :
 
     @FXML
     void Login(ActionEvent event) throws IOException {
@@ -74,7 +79,6 @@ public class Scene1 implements Initializable{
 
     }
 
-    // Method for Accessing Sign In Page for the User
     @FXML
     void Sign_In(ActionEvent event) throws IOException{
 
@@ -90,7 +94,7 @@ public class Scene1 implements Initializable{
 
     }
 
-    // Method For Asking the User if he needs to exit and Logout
+
     @FXML
     void Logout(ActionEvent event) {
 
@@ -110,13 +114,30 @@ public class Scene1 implements Initializable{
          Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
          Scene scene = new Scene(root);
 
-         stage.setTitle("Airlne App");
+         stage.setTitle("SkgyGlide");
          stage.setX(200);
          stage.setY(5);
          stage.setScene(scene);
          stage.show();
 
     }
+
+    @FXML
+    void Admin_Page(ActionEvent event) throws IOException{
+
+        Parent root = FXMLLoader.load(getClass().getResource("AdminPage.fxml"));
+         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+         Scene scene = new Scene(root);
+
+         stage.setTitle("SkgyGlide");
+         stage.setX(200);
+         stage.setY(5);
+         stage.setScene(scene);
+         stage.show();
+
+
+    }
+
 
 
     @FXML
@@ -125,6 +146,8 @@ public class Scene1 implements Initializable{
 
     }
 
+    // Strating For Window open Action Animations :
+    
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
 

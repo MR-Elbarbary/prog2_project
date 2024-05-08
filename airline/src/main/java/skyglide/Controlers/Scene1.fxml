@@ -43,7 +43,7 @@
                <effect>
                   <DropShadow spread="0.74">
                      <color>
-                        <Color red="0.12156862765550613" green="0.18039216101169586" blue="0.8274509906768799" />
+                        <Color red="0.12280701845884323" green="0.18165205419063568" blue="0.8289473652839661" />
                      </color>
                   </DropShadow>
                </effect>
@@ -107,18 +107,6 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button id="Sign_Admin" fx:id="Sign_Admin" layoutX="86.0" layoutY="160.0" mnemonicParsing="false" onAction="#Admin_Page" style="-fx-background-radius: 20;" stylesheets="@Scene1.css" text="Sign As Admin" textFill="WHITE">
-               <font>
-                  <Font size="19.0" />
-               </font>
-               <effect>
-                  <DropShadow spread="0.75">
-                     <color>
-                        <Color red="0.12156862765550613" green="0.18039216101169586" blue="0.8274509906768799" />
-                     </color>
-                  </DropShadow>
-               </effect>
-            </Button>
          </children>
       </Pane>
       <ImageView fx:id="Small_AirPlane" fitHeight="69.0" fitWidth="85.0" layoutX="-85.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">

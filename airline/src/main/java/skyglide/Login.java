@@ -1,5 +1,3 @@
-package skyglide;
-
 import java.io.IOException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,6 +10,11 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 
 public class Login {
+
+    /*
+    Controlling Variables Giving It's FX:ID
+    Controller Class For Login Page (Connected To FXML Files)
+   */
 
     @FXML
     private Button Back;

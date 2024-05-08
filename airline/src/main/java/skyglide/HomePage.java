@@ -1,5 +1,3 @@
-package skyglide;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -21,7 +19,10 @@ import javafx.scene.Node;
 
 public class HomePage implements Initializable {
 
-    // Conteroller from Scene Builder for HomePage 
+   /*
+    Controlling Variables Giving It's FX:ID
+    Controller Class For Home Page (Connected To FXML Files)
+   */
 
     @FXML
     private Button Back;
@@ -47,7 +48,6 @@ public class HomePage implements Initializable {
     @FXML
     private Button Profile;
 
-    
     @FXML
     private Button Search;
     
@@ -60,6 +60,7 @@ public class HomePage implements Initializable {
     @FXML
     private Pane Moving_Pane;
 
+    // Buttons For Interactiing With Users :
 
     @FXML
     void Return_Back_Previous_Page(ActionEvent event) throws IOException {
@@ -79,7 +80,7 @@ public class HomePage implements Initializable {
 
     }
 
-    // For Helping User Giving an Info about our App :
+
     @FXML
     void Switch_Help(ActionEvent event) throws IOException {
 
@@ -143,18 +144,14 @@ public class HomePage implements Initializable {
     void Switch_Profile(ActionEvent event) {
 
     }
-
-    // Acting With User Panes :
     
     @FXML
     void Search(ActionEvent event) throws IOException {
-
-        // Changes : 
         
         Parent root = FXMLLoader.load(getClass().getResource("\\FXML\\Search.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
-        stage.setTitle("Airlne App");
+        stage.setTitle("SkyGlide");
         stage.setX(200);
         stage.setY(5);
         stage.setScene(scene);
@@ -167,7 +164,7 @@ public class HomePage implements Initializable {
         Parent root = FXMLLoader.load(getClass().getResource("Pennding.fxml"));
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
-        stage.setTitle("Airlne App");
+        stage.setTitle("SkyGlide");
         stage.setScene(scene);
         stage.show();
 
